@@ -1,9 +1,9 @@
-import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Mary {
 	public static int mary(int n, int k) {
 		int i = -1;
-		ArrayList<Integer> arr = new ArrayList<Integer>();
+		LinkedList<Integer> arr = new LinkedList<Integer>();
 
 		for (int m = 1; m <= n; m++) 
 			arr.add(m);
